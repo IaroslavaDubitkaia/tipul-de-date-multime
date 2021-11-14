@@ -1,0 +1,5 @@
+A = int(input('introduceti elementele pentru prima multime:'))
+B = int(input('introduceti elementele pentru a doua multime:'))
+print('intersectia multumilor', A.intersection(B))
+print('reuniunea multumilor', A.union(B))
+print('intersectia multumilor', A.difference(B))
